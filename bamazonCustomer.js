@@ -12,7 +12,7 @@ var connection = mysql.createConnection({
     database: 'bamazon'
 });
 
-connection.connect(function(err){
+connection.connect(function(err){5
     if (err) throw err;
     console.log("connected as id: " + connection.threadId);
     welcomeBamazon();
